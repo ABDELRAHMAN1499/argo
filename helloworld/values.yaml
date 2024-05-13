@@ -5,10 +5,10 @@
 replicaCount: 2
 
 image:
-  repository: nginx
+  repository: httpd
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "stable-perl"
+  tag: "latest"
 
 imagePullSecrets: []
 nameOverride: ""
